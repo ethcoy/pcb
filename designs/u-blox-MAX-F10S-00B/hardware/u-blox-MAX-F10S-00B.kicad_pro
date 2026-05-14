@@ -644,17 +644,17 @@
     "top_level_sheets": [
       {
         "filename": "u-blox-MAX-F10S-00B.kicad_sch",
-        "name": "Root",
-        "uuid": "fc6e2683-f9bc-48f8-8d32-930f7b73c653"
+        "name": "u-blox-MAX-F10S-00B",
+        "uuid": "42e1d221-83dd-4a9a-aabf-76b26236b056"
       }
     ],
-    "used_designators": "S1,S101,IC1",
+    "used_designators": "C101-105,U101,R101-104,J1,J102-106,#PWR1-5,#PWR101-118,IC1",
     "variants": []
   },
   "sheets": [
     [
-      "fc6e2683-f9bc-48f8-8d32-930f7b73c653",
-      "Root"
+      "42e1d221-83dd-4a9a-aabf-76b26236b056",
+      "u-blox-MAX-F10S-00B"
     ]
   ],
   "text_variables": {},
