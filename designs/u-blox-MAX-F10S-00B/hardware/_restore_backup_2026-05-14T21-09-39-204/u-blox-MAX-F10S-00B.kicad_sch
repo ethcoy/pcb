@@ -1594,24 +1594,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 12.7 -20.32 90)
-					(length 7.62)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -3863,16 +3845,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 45.72) (xy 63.5 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db817c49-ca8d-4e89-8d0f-10936fc02c3d")
-	)
-	(wire
-		(pts
 			(xy 81.28 171.45) (xy 86.36 171.45)
 		)
 		(stroke
@@ -4142,7 +4114,7 @@
 		(uuid "4a18aa9b-223b-4378-9831-1dc13fe0229b")
 	)
 	(label "RESET_N"
-		(at 250.19 129.54 180)
+		(at 250.19 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4152,7 +4124,7 @@
 		(uuid "4ac81580-b9b8-4059-8a5b-6da105b3c571")
 	)
 	(label "TIMEPULSE"
-		(at 250.19 121.92 180)
+		(at 250.19 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4162,7 +4134,7 @@
 		(uuid "6868ebd9-c8dc-4475-8b98-6c8fea37e230")
 	)
 	(label "SAFEBOOT_N"
-		(at 250.19 132.08 180)
+		(at 250.19 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4192,7 +4164,7 @@
 		(uuid "8cf595e8-20cf-493d-ba7f-9ac156fb9858")
 	)
 	(label "EXTINT"
-		(at 250.19 124.46 180)
+		(at 250.19 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4838,7 +4810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "pcb-MicrochipTechnology:MIC5318YMT-TR"
 			(at 42.164 21.336 0)
 			(hide yes)
 			(show_name no)
@@ -4890,9 +4862,6 @@
 		)
 		(pin "6"
 			(uuid "46ab5967-490c-4747-aa62-6f9478c0e76d")
-		)
-		(pin "7"
-			(uuid "f3bb22e2-62de-4bbb-afee-b47d92cc4326")
 		)
 		(instances
 			(project "u-blox-MAX-F10S-00B"
@@ -8019,84 +7988,6 @@
 			(project "u-blox-MAX-F10S-00B"
 				(path "/42e1d221-83dd-4a9a-aabf-76b26236b056"
 					(reference "H103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d74005d2-e8f0-4ec4-80b5-4f9237da9b95")
-		(property "Reference" "#PWR0122"
-			(at 63.5 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a877d04-1cec-4202-a15a-a73503ca6a7f")
-		)
-		(instances
-			(project "u-blox-MAX-F10S-00B"
-				(path "/42e1d221-83dd-4a9a-aabf-76b26236b056"
-					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
