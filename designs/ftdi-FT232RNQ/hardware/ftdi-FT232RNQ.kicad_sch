@@ -3221,14 +3221,6 @@
 		(uuid "a621d310-5e85-43a6-8783-650070ebb07b")
 	)
 	(no_connect
-		(at 43.18 110.49)
-		(uuid "cd6ed12a-0460-40a0-ae0e-a1a30a6be11f")
-	)
-	(no_connect
-		(at 43.18 107.95)
-		(uuid "d52bd047-ba5f-49e0-b457-2260e57b9f69")
-	)
-	(no_connect
 		(at 123.19 90.17)
 		(uuid "f04229eb-9359-4253-a819-8ba9231908f4")
 	)
@@ -3574,6 +3566,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 107.95) (xy 43.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "423a5bb4-94c8-496a-8a0e-af1472806bee")
+	)
+	(wire
+		(pts
 			(xy 168.91 80.01) (xy 170.18 80.01)
 		)
 		(stroke
@@ -3664,6 +3666,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 110.49) (xy 43.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5355e3f3-7847-49d1-938b-c68fc7b212e3")
+	)
+	(wire
+		(pts
 			(xy 27.94 96.52) (xy 27.94 97.79)
 		)
 		(stroke
@@ -3674,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 105.41) (xy 38.1 105.41)
+			(xy 43.18 105.41) (xy 29.21 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3824,7 +3836,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 105.41) (xy 38.1 109.22)
+			(xy 29.21 105.41) (xy 29.21 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4532,6 +4544,16 @@
 		)
 		(uuid "19c6bf23-7c7c-4b1e-9955-99f12ad16fe7")
 	)
+	(label "USB_-"
+		(at 105.41 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2038e0c9-515f-4666-9947-b3b6f0022e12")
+	)
 	(label "CBUS2{slash}TXDEN"
 		(at 152.4 171.45 90)
 		(effects
@@ -4541,6 +4563,16 @@
 			(justify left bottom)
 		)
 		(uuid "293e3388-7330-4271-9c37-236478ca6255")
+	)
+	(label "USB_+"
+		(at 41.91 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2da99943-ad9e-40f8-b965-577ce95f0370")
 	)
 	(label "DTR#"
 		(at 250.19 82.55 0)
@@ -4601,6 +4633,16 @@
 			(justify left bottom)
 		)
 		(uuid "5a10bd98-1a8a-4697-8bfa-ac2cb4d08554")
+	)
+	(label "CC1"
+		(at 57.15 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61f98aaf-d776-4bff-9e70-804c94f253e8")
 	)
 	(label "DTR#"
 		(at 170.18 72.39 0)
@@ -4732,6 +4774,16 @@
 		)
 		(uuid "a53960f5-abf3-49e4-bcc7-6cf0cc3e9eca")
 	)
+	(label "USB_+"
+		(at 105.41 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3cc30e8-5d9f-45d2-8345-40162380752d")
+	)
 	(label "CTS#"
 		(at 170.18 69.85 0)
 		(effects
@@ -4772,6 +4824,16 @@
 		)
 		(uuid "dd50c96c-0d47-46e5-bba8-166c0647e983")
 	)
+	(label "USB_-"
+		(at 41.91 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de7866f7-567b-4829-965a-bd9515df86fa")
+	)
 	(label "CBUS1{slash}RXLED#"
 		(at 170.18 90.17 0)
 		(effects
@@ -4801,6 +4863,16 @@
 			(justify left bottom)
 		)
 		(uuid "e8f178b0-c723-4baa-b5c6-a6ddf9a4a898")
+	)
+	(label "CC2"
+		(at 49.53 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f470e098-6ace-4b02-82d5-fd92732131b8")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -6594,7 +6666,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 109.22 0)
+		(at 29.21 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6605,7 +6677,7 @@
 		(fields_autoplaced yes)
 		(uuid "78126574-f525-4cc7-a636-f6796ce2e991")
 		(property "Reference" "#PWR015"
-			(at 38.1 115.57 0)
+			(at 29.21 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6616,7 +6688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 114.3 0)
+			(at 29.21 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6626,7 +6698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 109.22 0)
+			(at 29.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6637,7 +6709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 109.22 0)
+			(at 29.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6648,7 +6720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 109.22 0)
+			(at 29.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
