@@ -33,7 +33,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PRT-14417:SPARKFUN_PRT-14417"
+		(property "Footprint" "pcb-SparkFun:PRT-14417"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

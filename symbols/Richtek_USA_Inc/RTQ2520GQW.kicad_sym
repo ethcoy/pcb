@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "AT93C46DN-SH-B"
+	(symbol "RTQ2520GQW"
 		(pin_names
 			(offset 0.254)
 		)
@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 15.748 7.366 0)
+			(at 22.86 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21,8 +21,8 @@
 				)
 			)
 		)
-		(property "Value" "AT93C46DN-SH-B"
-			(at 15.748 4.826 0)
+		(property "Value" "RTQ2520GQW"
+			(at 22.86 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31,8 +31,8 @@
 				)
 			)
 		)
-		(property "Footprint" "pcb-MicrochipTechnology:AT93C46DN-SH-B"
-			(at -2.286 7.112 0)
+		(property "Footprint" "pcb-Richtek_USA_Inc:RTQ2520GQW"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -43,8 +43,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "AT93C46DN-SH-B"
-			(at 2.54 7.112 0)
+		(property "Datasheet" "RTQ2520GQW"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -76,7 +76,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "AT93C46DN-SH-B"
+		(property "ki_keywords" "RTQ2520GQW"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87,7 +87,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "8S1_ATM 8S1_ATM-M 8S1_ATM-L"
+		(property "ki_fp_filters" "RTQ2520GQW"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98,11 +98,11 @@
 				)
 			)
 		)
-		(symbol "AT93C46DN-SH-B_0_1"
+		(symbol "RTQ2520GQW_0_1"
 			(pin passive line
-				(at 31.75 0 180)
+				(at 39.37 0 180)
 				(length 7.62)
-				(name "CS"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118,9 +118,9 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -2.54 180)
+				(at 39.37 -5.08 180)
 				(length 7.62)
-				(name "SK"
+				(name "FB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -136,9 +136,9 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -5.08 180)
+				(at 17.78 -20.32 90)
 				(length 7.62)
-				(name "DI"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,9 +154,9 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -7.62 180)
+				(at 0 -3.81 0)
 				(length 7.62)
-				(name "DO"
+				(name "PGOOD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -171,23 +171,10 @@
 					)
 				)
 			)
-		)
-		(symbol "AT93C46DN-SH-B_1_1"
-			(rectangle
-				(start 7.62 2.54)
-				(end 24.13 -13.97)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
-				(at 0 -11.43 0)
+				(at 39.37 -10.16 180)
 				(length 7.62)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -203,9 +190,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at 0 -10.16 0)
 				(length 7.62)
-				(name "ORG"
+				(name "NR/SS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -221,9 +208,9 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -11.43 180)
+				(at 0 -7.62 0)
 				(length 7.62)
-				(name "NC"
+				(name "EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -241,7 +228,7 @@
 			(pin passive line
 				(at 0 0 0)
 				(length 7.62)
-				(name "VCC"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -254,6 +241,37 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+			(pin passive line
+				(at 21.59 -20.32 90)
+				(length 7.62)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RTQ2520GQW_1_1"
+			(rectangle
+				(start 7.62 2.54)
+				(end 31.75 -12.7)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

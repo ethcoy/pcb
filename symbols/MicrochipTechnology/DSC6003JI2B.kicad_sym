@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VLGA4_AUA_MCH"
+		(property "Footprint" "pcb-MicrochipTechnology:DSC6003JI2B"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

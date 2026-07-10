@@ -30,7 +30,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "FT2232HQ"
+		(property "Footprint" "pcb-FTDI:FT2232HQ"
 			(at 52.07 -82.22 0)
 			(show_name no)
 			(do_not_autoplace no)

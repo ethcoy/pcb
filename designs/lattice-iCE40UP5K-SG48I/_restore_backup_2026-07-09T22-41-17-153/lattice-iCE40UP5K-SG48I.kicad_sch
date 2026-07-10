@@ -8221,6 +8221,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 191.77) (xy 281.94 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18aafe80-7a52-45a6-8bb8-e8e4543cd71a")
+	)
+	(wire
+		(pts
 			(xy 259.08 161.29) (xy 259.08 162.56)
 		)
 		(stroke
@@ -8781,16 +8791,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 190.5) (xy 261.62 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c22477b-02c0-4c41-8791-39273cfc5394")
-	)
-	(wire
-		(pts
 			(xy 537.21 209.55) (xy 535.94 209.55)
 		)
 		(stroke
@@ -9258,6 +9258,16 @@
 			(type default)
 		)
 		(uuid "535af4e8-4553-44a6-9ab9-18c9842f5408")
+	)
+	(wire
+		(pts
+			(xy 248.92 191.77) (xy 281.94 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5362b851-f9b5-4069-9162-84806f4f65f8")
 	)
 	(wire
 		(pts
@@ -11611,16 +11621,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 191.77) (xy 261.62 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d83c75e5-fbbc-45a5-9cd5-631e02c3ea80")
-	)
-	(wire
-		(pts
 			(xy 524.51 100.33) (xy 524.51 99.06)
 		)
 		(stroke
@@ -11708,6 +11708,16 @@
 			(type default)
 		)
 		(uuid "db65c8b4-cac6-45ec-bb08-145f7a717822")
+	)
+	(wire
+		(pts
+			(xy 281.94 181.61) (xy 281.94 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db87f8b6-b373-4660-bc2c-41ddb474622a")
 	)
 	(wire
 		(pts
@@ -17296,6 +17306,88 @@
 			(project "lattice-iCE40UP5K-SG48I"
 				(path "/e0a68d80-6b92-4ac2-8789-569b9c117dc1"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 281.94 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eff6507-8040-4fad-9acc-8ee00892cd5e")
+		(property "Reference" "R24"
+			(at 284.48 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 284.48 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 280.162 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 281.94 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7151560f-faf4-4be3-91af-614b90d2fd79")
+		)
+		(pin "2"
+			(uuid "e28dfc2d-2494-46e0-9d9a-4c198cbe0933")
+		)
+		(instances
+			(project "lattice-iCE40UP5K-SG48I"
+				(path "/e0a68d80-6b92-4ac2-8789-569b9c117dc1"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -26484,7 +26576,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 261.62 190.5 0)
+		(at 281.94 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26494,7 +26586,7 @@
 		(dnp no)
 		(uuid "cac17f76-232a-4bdb-9449-dad47bfe3619")
 		(property "Reference" "#PWR070"
-			(at 261.62 194.31 0)
+			(at 281.94 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26505,7 +26597,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 261.62 186.69 0)
+			(at 281.94 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26515,7 +26607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 190.5 0)
+			(at 281.94 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26526,7 +26618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 190.5 0)
+			(at 281.94 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26537,7 +26629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 261.62 190.5 0)
+			(at 281.94 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
