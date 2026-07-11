@@ -15057,7 +15057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d4ab6d1-c445-47ef-b527-b4f137eb6e77")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 536.956 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15121,7 +15121,7 @@
 		(instances
 			(project "lattice-iCE40UP5K-SG48I"
 				(path "/e0a68d80-6b92-4ac2-8789-569b9c117dc1"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -17806,7 +17806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4925774b-e125-4006-8158-9a2192a30f05")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR071"
 			(at 414.02 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -17866,7 +17866,7 @@
 		(instances
 			(project "lattice-iCE40UP5K-SG48I"
 				(path "/e0a68d80-6b92-4ac2-8789-569b9c117dc1"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -17884,7 +17884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ab95e0a-ac02-46e3-b838-7a3871ce9c8e")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR070"
 			(at 129.54 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -17944,7 +17944,7 @@
 		(instances
 			(project "lattice-iCE40UP5K-SG48I"
 				(path "/e0a68d80-6b92-4ac2-8789-569b9c117dc1"
-					(reference "#PWR071")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -18531,7 +18531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD"
+		(property "Footprint" "pcb-Samtec:SAMTEC-SMH-106-02-X-D"
 			(at 382.27 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -18641,7 +18641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD"
+		(property "Footprint" "pcb-Samtec:SAMTEC-SMH-106-02-X-D"
 			(at 438.15 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -21739,7 +21739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD"
+		(property "Footprint" "pcb-Samtec:SAMTEC-SMH-106-02-X-D"
 			(at 466.09 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -24991,7 +24991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD"
+		(property "Footprint" "pcb-Samtec:SAMTEC-SMH-106-02-X-D"
 			(at 410.21 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -26493,7 +26493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cac17f76-232a-4bdb-9449-dad47bfe3619")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR072"
 			(at 261.62 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -26553,7 +26553,7 @@
 		(instances
 			(project "lattice-iCE40UP5K-SG48I"
 				(path "/e0a68d80-6b92-4ac2-8789-569b9c117dc1"
-					(reference "#PWR070")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
