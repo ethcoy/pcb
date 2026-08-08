@@ -1,0 +1,134 @@
+(footprint "4-PLCC_3P2X2P8_INL"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "IN-P32TATRGB ")
+	(property "Reference" "REF**"
+		(at 0 -2.775 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "705d5f63-dbb6-4fdb-8204-4c49435d7c02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "4-PLCC_3P2X2P8_INL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b0ca01b-e681-466e-bed9-bc1522ace126")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a98fefa4-2a67-4b0a-b109-be6719eb83c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "300f690c-950a-4077-b625-7327627d16d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.7272 1.609)
+		(end 1.7272 1.609)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3264886-c240-4b83-8a02-d2f66d8c4daa")
+	)
+	(fp_line
+		(start 1.7272 -1.524)
+		(end -1.7272 -1.524)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f5e7e4d-9d1e-428f-be4d-85d7e405c479")
+	)
+	(fp_circle
+		(center -2.724 -0.707499)
+		(end -2.524 -0.707499)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "979324af-00ec-4536-838d-252749c51728")
+	)
+	(fp_rect
+		(start -2.524 -1.707)
+		(end 2.879 1.7925)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "37ff4595-5786-4717-a228-b1c53e09cf66")
+	)
+	(pad "1" smd rect
+		(at -1.524 -0.707499 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "51fd28c4-b2ba-4aa8-b9f3-324ba7e8972a")
+	)
+	(pad "2" smd rect
+		(at 1.876 -0.707499 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "260e6349-450f-4129-a4e5-ad525b168690")
+	)
+	(pad "3" smd rect
+		(at -1.524 0.792499 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5dc28376-d5d2-40e5-b117-af3b8e7c212a")
+	)
+	(pad "4" smd rect
+		(at 1.876 0.792499 90)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b442e0db-d054-4d05-b627-c302621bed27")
+	)
+	(embedded_fonts no)
+	(model "/home/ecoyle/pcb/models/Inolux/4-PLCC_3P2X2P8_INL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
